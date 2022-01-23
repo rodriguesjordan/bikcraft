@@ -1,0 +1,16 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap'); */
+
+@import "./global/global.css";
+@import "./utilities/typegraphy.css";
+@import "./utilities/colors.css";
+@import "./global/header.css";
+
+/* Utilities */
+@import "./utilities/components.css";
+
+
+/* Home */
+@import "./home/intro.css";
+
+/* Bikes */
+@import "./bikes/bikes-list.css";
