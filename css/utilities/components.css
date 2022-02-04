@@ -29,6 +29,25 @@
 
 }
 
+.btn.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.btn.arrow::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("../../img/icones/seta.svg");
+    transition: transform .2s;
+}
+
+.btn.arrow:hover::after {
+    transform: translateX(4px);
+}
+
 .btn:hover {
     background: linear-gradient(#ffb60d, #e59317);
 }
@@ -57,4 +76,32 @@
 
 .link:hover {
     color: var(--color-0);
+}
+
+
+
+/* Título internos */
+
+.title-bg {
+    background-color: var(--color-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .title p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+
+    
 }
