@@ -104,6 +104,8 @@
         text-transform: lowercase;
         font-weight: 400;
     }
-
-    
+    .title-bg {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 }
